@@ -4,4 +4,6 @@ python-box==6.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 pandas
+ydata_profiling
+ipywidgets==7.4.2
 -e .

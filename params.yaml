@@ -1,2 +1,16 @@
 Input_file:
-  file_path: 'C:\Users\F14EIYF\Downloads\ML\classification problem\Files\Salary.csv'
+  file_path: Files\Input_files\customer_churn.csv
+  target_feature: Churn
+
+Output_file:
+  path: Files\Output_files
+
+Preprocessing:
+  Categorical_transformer: 
+  - OneHotEncoder(drop='first',handle_unknown='ignore', sparse=False)
+  Numerical_trasformer: 
+  - StandardScaler()
+
+Models:
+  - LogisticRegression()
+

@@ -2,5 +2,7 @@ Metadata-Version: 2.1
 Name: classification
 Version: 0.0.0
 Summary: Code to handle Classification problem
+Home-page: https://github.com/gcmadhan/Classification
 Author: gcmadhan
 Author-email: gcmadhan@gmail.com
+Project-URL: Bug Tracker, https://github.com/gcmadhan/Classification/issues

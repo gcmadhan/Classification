@@ -1,12 +1,15 @@
 setup.py
 src/Classification/__init__.py
 src/Classification/components/__init__.py
+src/Classification/components/data_ingestion.py
+src/Classification/components/data_validation.py
 src/Classification/config/__init__.py
 src/Classification/config/configuration.py
 src/Classification/constants/__init__.py
 src/Classification/entity/__init__.py
 src/Classification/logging/__init__.py
 src/Classification/pipeline/__init__.py
+src/Classification/pipeline/stage1_data_ingestion.py
 src/Classification/utils/__init__.py
 src/Classification/utils/common.py
 src/classification.egg-info/PKG-INFO
