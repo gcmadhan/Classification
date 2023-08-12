@@ -13,4 +13,9 @@ Preprocessing:
 
 Models:
   - LogisticRegression()
+  - SVC()
+  - KNeighborsClassifier(n_neighbors=10)
+  - DecisionTreeClassifier()
+  - AdaBoostClassifier(n_estimators=100)
+
 

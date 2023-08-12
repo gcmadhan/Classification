@@ -6,4 +6,6 @@ uvicorn==0.18.3
 pandas
 ydata_profiling
 ipywidgets==7.4.2
+fastapi
+joblib
 -e .
