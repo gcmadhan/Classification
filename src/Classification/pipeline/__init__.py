@@ -46,8 +46,15 @@ class ModelSavePipeline:
 class ModelPredictPipeline:
     def __init__(self, dataframe:pd.DataFrame):
         self.df = dataframe
+        
     
     def main(self):
         new = Data_Prediciton(self.df)
         #new.create_base_model()
-        return(new.predict(self.df))
+        anomoly = new.validate_input(self.df)
+        msg=""
+        if len(anomoly)>0:
+            msg =  f"{anomoly} - features are not in range (num) or unique value (cat) - May impact the prediction accuracy"
+        return f"{msg} \n Prediction:  {new.predict(self.df)}"
+ 
+

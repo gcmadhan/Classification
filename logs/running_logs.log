@@ -4739,3 +4739,1541 @@ TypeError: mutual_info_classif() missing 2 required positional arguments: 'X' an
 [2023-08-14 11:50:28,717: INFO: on: Waiting for application startup.]
 [2023-08-14 11:50:28,718: INFO: on: Application startup complete.]
 [2023-08-14 11:50:28,719: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 12:24:14,422: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 12:24:14,444: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 12:24:14,447: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 12:24:14,449: INFO: __init__: Python backend loaded]
+[2023-08-14 12:24:32,642: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 12:24:32,653: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 12:24:32,655: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 12:24:32,656: INFO: __init__: Python backend loaded]
+[2023-08-14 12:24:49,060: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 12:24:49,074: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 12:24:49,075: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 12:24:49,076: INFO: __init__: Python backend loaded]
+[2023-08-14 12:25:32,618: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 12:25:32,628: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 12:25:32,630: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 12:25:32,630: INFO: __init__: Python backend loaded]
+[2023-08-14 12:26:18,798: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 12:26:18,809: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 12:26:18,811: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 12:26:18,811: INFO: __init__: Python backend loaded]
+[2023-08-14 13:58:45,968: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 13:58:45,982: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 13:58:45,984: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 13:58:45,984: INFO: __init__: Python backend loaded]
+[2023-08-14 13:59:44,919: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 13:59:44,932: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 13:59:44,933: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 13:59:44,934: INFO: __init__: Python backend loaded]
+[2023-08-14 13:59:45,867: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 13:59:45,883: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 13:59:45,947: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 13:59:45,972: INFO: server: Started server process [17156]]
+[2023-08-14 13:59:45,973: INFO: on: Waiting for application startup.]
+[2023-08-14 13:59:45,974: INFO: on: Application startup complete.]
+[2023-08-14 13:59:45,975: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 13:59:50,978: INFO: server: Shutting down]
+[2023-08-14 13:59:51,087: INFO: on: Waiting for application shutdown.]
+[2023-08-14 13:59:51,088: INFO: on: Application shutdown complete.]
+[2023-08-14 13:59:51,089: INFO: server: Finished server process [17156]]
+[2023-08-14 14:15:47,917: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:15:47,920: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:15:47,920: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:15:47,920: INFO: __init__: Python backend loaded]
+[2023-08-14 14:16:12,619: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:16:12,622: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:16:12,703: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:16:23,972: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:16:23,975: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:16:24,044: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:16:37,957: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:16:37,960: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:16:38,024: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:17:08,791: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:17:08,794: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:17:08,885: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:17:08,888: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:17:08,890: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:17:25,682: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:17:25,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:17:25,748: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:17:25,750: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:17:25,753: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:18:04,228: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:18:04,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:18:04,302: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:18:04,305: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:18:04,307: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:18:29,242: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:18:29,244: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:18:29,305: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:18:29,308: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:18:29,310: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:18:40,940: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:18:40,951: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:18:40,953: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:18:40,954: INFO: __init__: Python backend loaded]
+[2023-08-14 14:18:41,678: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:18:41,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:18:41,743: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:18:41,745: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:18:41,748: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:19:38,034: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:19:38,037: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:19:38,100: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:19:38,103: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:19:38,105: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:20:58,070: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:20:58,081: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:20:58,083: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:20:58,085: INFO: __init__: Python backend loaded]
+[2023-08-14 14:20:58,753: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:20:58,756: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:20:58,818: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:20:58,820: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:20:58,823: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:21:43,916: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:21:43,945: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:21:43,947: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:21:43,948: INFO: __init__: Python backend loaded]
+[2023-08-14 14:21:44,562: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:21:44,564: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:21:44,625: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:21:44,627: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:21:44,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:25:24,981: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:25:24,983: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:25:25,049: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:25:25,053: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:25:25,055: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:25:35,208: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:25:35,216: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:25:35,217: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:25:35,218: INFO: __init__: Python backend loaded]
+[2023-08-14 14:25:35,865: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:25:35,868: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:25:35,937: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:25:35,940: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:25:35,943: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:26:02,448: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:26:02,458: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:26:02,459: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:26:02,460: INFO: __init__: Python backend loaded]
+[2023-08-14 14:26:03,088: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:26:03,090: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:26:03,148: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:26:03,149: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:26:03,152: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:26:31,019: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:26:31,022: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:26:31,089: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:26:31,091: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:26:31,094: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:27:05,450: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:27:05,453: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:27:05,513: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:27:05,515: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:27:05,517: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:27:39,624: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:27:39,627: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:27:39,690: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:27:39,693: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:27:39,695: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:27:46,375: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:27:46,386: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:27:46,388: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:27:46,389: INFO: __init__: Python backend loaded]
+[2023-08-14 14:27:47,051: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:27:47,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:27:47,112: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:27:47,114: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:27:47,118: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:28:11,826: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:28:11,836: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:28:11,838: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:28:11,839: INFO: __init__: Python backend loaded]
+[2023-08-14 14:28:12,480: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:28:12,483: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:28:12,540: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:28:12,542: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:28:12,544: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:28:56,024: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:28:56,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:28:56,097: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:28:56,100: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:28:56,103: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:29:02,642: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:29:02,654: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:29:02,656: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:29:02,657: INFO: __init__: Python backend loaded]
+[2023-08-14 14:29:03,280: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:29:03,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:29:03,351: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:29:03,352: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:29:03,356: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:29:57,699: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:29:57,710: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:29:57,712: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:29:57,713: INFO: __init__: Python backend loaded]
+[2023-08-14 14:29:58,386: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:29:58,389: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:29:58,455: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:29:58,457: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:29:58,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:29:58,463: INFO: data_prediction: Index([], dtype='object')]
+[2023-08-14 14:29:58,464: INFO: data_prediction: Index(['CustomerID', 'Age', 'Gender', 'Tenure', 'UsageFrequency',
+       'SupportCalls', 'PaymentDelay', 'SubscriptionType', 'ContractLength',
+       'TotalSpend', 'LastInteraction', 'Churn'],
+      dtype='object')]
+[2023-08-14 14:30:51,190: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:30:51,199: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:30:51,201: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:30:51,202: INFO: __init__: Python backend loaded]
+[2023-08-14 14:30:51,802: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:30:51,805: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:30:51,861: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:30:51,864: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:30:51,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:30:51,869: INFO: data_prediction: Index([], dtype='object')]
+[2023-08-14 14:30:51,870: INFO: data_prediction: Index(['Cat features:CustomerID', 'Cat features:Age', 'Cat features:Gender',
+       'Cat features:Tenure', 'Cat features:UsageFrequency',
+       'Cat features:SupportCalls', 'Cat features:PaymentDelay',
+       'Cat features:SubscriptionType', 'Cat features:ContractLength',
+       'Cat features:TotalSpend', 'Cat features:LastInteraction',
+       'Cat features:Churn'],
+      dtype='object')]
+[2023-08-14 14:37:26,982: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:37:26,985: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:37:27,055: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:37:27,059: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:37:27,061: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:37:27,064: INFO: data_prediction: Index(['Numeric features:CustomerID', 'Numeric features:Age',
+       'Numeric features:Tenure', 'Numeric features:UsageFrequency',
+       'Numeric features:SupportCalls', 'Numeric features:PaymentDelay',
+       'Numeric features:TotalSpend', 'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:37:27,065: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:37:49,949: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:37:49,959: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:37:49,961: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:37:49,961: INFO: __init__: Python backend loaded]
+[2023-08-14 14:37:50,581: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:37:50,582: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:37:50,644: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:37:50,647: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:37:50,649: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:37:50,652: INFO: data_prediction: Index(['Numeric features:CustomerID', 'Numeric features:Age',
+       'Numeric features:Tenure', 'Numeric features:UsageFrequency',
+       'Numeric features:SupportCalls', 'Numeric features:PaymentDelay',
+       'Numeric features:TotalSpend', 'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:37:50,653: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:37:50,653: INFO: data_prediction: CustomerID
+]
+[2023-08-14 14:38:57,079: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:38:57,090: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:38:57,091: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:38:57,092: INFO: __init__: Python backend loaded]
+[2023-08-14 14:38:57,737: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:38:57,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:38:57,795: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:38:57,799: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:38:57,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:38:57,803: INFO: data_prediction: Index(['Numeric features:CustomerID', 'Numeric features:Age',
+       'Numeric features:Tenure', 'Numeric features:UsageFrequency',
+       'Numeric features:SupportCalls', 'Numeric features:PaymentDelay',
+       'Numeric features:TotalSpend', 'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:38:57,804: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:38:57,805: INFO: data_prediction: CustomerID
+]
+[2023-08-14 14:39:28,998: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:39:29,007: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:39:29,009: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:39:29,009: INFO: __init__: Python backend loaded]
+[2023-08-14 14:39:29,648: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:39:29,652: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:39:29,715: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:39:29,720: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:39:29,722: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:39:51,450: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:39:51,453: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:39:51,515: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:39:51,519: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:39:51,521: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:39:51,523: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:39:51,524: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:39:51,525: INFO: data_prediction: Age
+]
+[2023-08-14 14:39:59,516: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:39:59,526: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:39:59,527: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:39:59,528: INFO: __init__: Python backend loaded]
+[2023-08-14 14:40:00,150: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:40:00,152: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:40:00,211: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:40:00,214: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:40:00,216: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:40:00,219: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:40:00,219: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:40:00,219: INFO: data_prediction: Age
+]
+[2023-08-14 14:44:46,544: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:44:46,552: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:44:46,554: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:44:46,554: INFO: __init__: Python backend loaded]
+[2023-08-14 14:44:47,192: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:44:47,195: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:44:47,251: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:44:47,254: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:44:47,256: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:44:47,259: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:44:47,260: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:44:47,261: INFO: data_prediction: Age
+]
+[2023-08-14 14:46:53,836: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:46:53,847: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:46:53,849: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:46:53,850: INFO: __init__: Python backend loaded]
+[2023-08-14 14:46:54,503: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:46:54,506: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:46:54,564: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:46:54,568: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:46:54,569: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:46:54,571: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:46:54,573: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:46:54,574: INFO: data_prediction: Age
+]
+[2023-08-14 14:46:54,574: INFO: data_prediction: 0    22
+Name: Age, dtype: int64]
+[2023-08-14 14:47:41,733: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:47:41,742: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:47:41,744: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:47:41,745: INFO: __init__: Python backend loaded]
+[2023-08-14 14:47:42,369: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:47:42,371: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:47:42,429: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:47:42,433: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:47:42,435: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:47:42,439: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:47:42,441: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:47:42,442: INFO: data_prediction: Age
+]
+[2023-08-14 14:47:42,443: INFO: data_prediction: 22]
+[2023-08-14 14:48:30,666: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:48:30,676: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:48:30,678: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:48:30,678: INFO: __init__: Python backend loaded]
+[2023-08-14 14:48:31,310: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:48:31,312: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:48:31,381: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:48:31,385: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:48:31,387: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:48:31,390: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:48:31,391: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:48:31,392: INFO: data_prediction: Age
+]
+[2023-08-14 14:49:52,006: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:49:52,014: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:49:52,016: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:49:52,017: INFO: __init__: Python backend loaded]
+[2023-08-14 14:49:52,634: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:49:52,637: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:49:52,699: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:49:52,704: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:49:52,706: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:49:52,708: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:49:52,709: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:49:52,709: INFO: data_prediction: Age
+]
+[2023-08-14 14:51:11,380: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:51:11,382: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:52:21,667: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:52:21,676: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:52:21,678: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:52:21,678: INFO: __init__: Python backend loaded]
+[2023-08-14 14:52:22,320: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:52:22,323: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:52:22,410: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:52:22,415: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:52:22,418: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:52:22,492: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:52:22,494: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:52:22,495: INFO: data_prediction: Age
+]
+[2023-08-14 14:52:22,495: INFO: data_prediction: 0        22
+1        41
+2        47
+3        35
+4        53
+         ..
+64369    45
+64370    37
+64371    25
+64372    50
+64373    52
+Name: Age, Length: 64374, dtype: int64]
+[2023-08-14 14:55:05,696: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:55:05,706: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:55:05,707: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:55:05,708: INFO: __init__: Python backend loaded]
+[2023-08-14 14:55:06,357: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:55:06,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:55:06,416: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:55:06,420: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:55:06,422: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:55:06,479: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:55:06,481: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:55:06,482: INFO: data_prediction: Age
+]
+[2023-08-14 14:55:06,483: INFO: data_prediction: 0        22
+1        41
+2        47
+3        35
+4        53
+         ..
+64369    45
+64370    37
+64371    25
+64372    50
+64373    52
+Name: Age, Length: 64374, dtype: int64]
+[2023-08-14 14:57:25,018: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:57:25,027: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:57:25,029: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:57:25,030: INFO: __init__: Python backend loaded]
+[2023-08-14 14:57:25,664: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:57:25,666: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:57:25,725: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:57:25,728: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:57:25,731: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:57:25,787: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:57:25,788: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:57:25,789: INFO: data_prediction: Age
+]
+[2023-08-14 14:57:25,790: INFO: data_prediction: 0        22
+1        41
+2        47
+3        35
+4        53
+         ..
+64369    45
+64370    37
+64371    25
+64372    50
+64373    52
+Name: Age, Length: 64374, dtype: int64]
+[2023-08-14 14:57:56,444: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:57:56,451: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:57:56,453: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:57:56,453: INFO: __init__: Python backend loaded]
+[2023-08-14 14:57:57,078: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:57:57,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:57:57,142: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:57:57,146: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:57:57,148: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:57:57,217: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:57:57,218: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:57:57,219: INFO: data_prediction: Age
+]
+[2023-08-14 14:57:57,220: INFO: data_prediction: 0        22
+1        41
+2        47
+3        35
+4        53
+         ..
+64369    45
+64370    37
+64371    25
+64372    50
+64373    52
+Name: Age, Length: 64374, dtype: int64]
+[2023-08-14 14:57:57,230: INFO: data_prediction: Tenure
+]
+[2023-08-14 14:57:57,231: INFO: data_prediction: 0        25
+1        28
+2        27
+3         9
+4        58
+         ..
+64369    33
+64370     6
+64371    39
+64372    18
+64373    45
+Name: Tenure, Length: 64374, dtype: int64]
+[2023-08-14 14:57:57,242: INFO: data_prediction: UsageFrequency
+]
+[2023-08-14 14:57:57,243: INFO: data_prediction: 0        14
+1        28
+2        10
+3        12
+4        24
+         ..
+64369    12
+64370     1
+64371    14
+64372    19
+64373    15
+Name: UsageFrequency, Length: 64374, dtype: int64]
+[2023-08-14 14:57:57,251: INFO: data_prediction: SupportCalls
+]
+[2023-08-14 14:57:57,252: INFO: data_prediction: 0        4
+1        7
+2        2
+3        5
+4        9
+        ..
+64369    6
+64370    5
+64371    8
+64372    7
+64373    9
+Name: SupportCalls, Length: 64374, dtype: int64]
+[2023-08-14 14:57:57,264: INFO: data_prediction: PaymentDelay
+]
+[2023-08-14 14:57:57,266: INFO: data_prediction: 0        27
+1        13
+2        29
+3        17
+4         2
+         ..
+64369    21
+64370    22
+64371    30
+64372    22
+64373    25
+Name: PaymentDelay, Length: 64374, dtype: int64]
+[2023-08-14 14:57:57,278: INFO: data_prediction: TotalSpend
+]
+[2023-08-14 14:57:57,279: INFO: data_prediction: 0        598
+1        584
+2        757
+3        232
+4        533
+        ... 
+64369    947
+64370    923
+64371    327
+64372    540
+64373    696
+Name: TotalSpend, Length: 64374, dtype: int64]
+[2023-08-14 14:57:57,292: INFO: data_prediction: LastInteraction
+]
+[2023-08-14 14:57:57,293: INFO: data_prediction: 0         9
+1        20
+2        21
+3        18
+4        18
+         ..
+64369    14
+64370     9
+64371    20
+64372    13
+64373    22
+Name: LastInteraction, Length: 64374, dtype: int64]
+[2023-08-14 14:58:34,360: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:58:34,363: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:58:34,437: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:58:34,441: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:58:34,443: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:58:34,506: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:58:34,508: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:58:34,508: INFO: data_prediction: Age
+]
+[2023-08-14 14:58:34,509: INFO: data_prediction: 0        22
+1        41
+2        47
+3        35
+4        53
+         ..
+64369    45
+64370    37
+64371    25
+64372    50
+64373    52
+Name: Age, Length: 64374, dtype: int64]
+[2023-08-14 14:58:34,517: INFO: data_prediction: Tenure
+]
+[2023-08-14 14:58:34,518: INFO: data_prediction: 0        25
+1        28
+2        27
+3         9
+4        58
+         ..
+64369    33
+64370     6
+64371    39
+64372    18
+64373    45
+Name: Tenure, Length: 64374, dtype: int64]
+[2023-08-14 14:58:34,530: INFO: data_prediction: UsageFrequency
+]
+[2023-08-14 14:58:34,531: INFO: data_prediction: 0        14
+1        28
+2        10
+3        12
+4        24
+         ..
+64369    12
+64370     1
+64371    14
+64372    19
+64373    15
+Name: UsageFrequency, Length: 64374, dtype: int64]
+[2023-08-14 14:58:34,541: INFO: data_prediction: SupportCalls
+]
+[2023-08-14 14:58:34,542: INFO: data_prediction: 0        4
+1        7
+2        2
+3        5
+4        9
+        ..
+64369    6
+64370    5
+64371    8
+64372    7
+64373    9
+Name: SupportCalls, Length: 64374, dtype: int64]
+[2023-08-14 14:58:34,554: INFO: data_prediction: PaymentDelay
+]
+[2023-08-14 14:58:34,555: INFO: data_prediction: 0        27
+1        13
+2        29
+3        17
+4         2
+         ..
+64369    21
+64370    22
+64371    30
+64372    22
+64373    25
+Name: PaymentDelay, Length: 64374, dtype: int64]
+[2023-08-14 14:58:34,564: INFO: data_prediction: TotalSpend
+]
+[2023-08-14 14:58:34,565: INFO: data_prediction: 0        598
+1        584
+2        757
+3        232
+4        533
+        ... 
+64369    947
+64370    923
+64371    327
+64372    540
+64373    696
+Name: TotalSpend, Length: 64374, dtype: int64]
+[2023-08-14 14:58:34,575: INFO: data_prediction: LastInteraction
+]
+[2023-08-14 14:58:34,576: INFO: data_prediction: 0         9
+1        20
+2        21
+3        18
+4        18
+         ..
+64369    14
+64370     9
+64371    20
+64372    13
+64373    22
+Name: LastInteraction, Length: 64374, dtype: int64]
+[2023-08-14 14:59:04,246: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 14:59:04,255: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 14:59:04,257: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 14:59:04,258: INFO: __init__: Python backend loaded]
+[2023-08-14 14:59:04,899: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:59:04,902: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:59:04,959: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 14:59:04,963: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 14:59:04,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 14:59:05,023: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 14:59:05,024: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 14:59:05,024: INFO: data_prediction: Age
+]
+[2023-08-14 14:59:05,024: INFO: data_prediction: 0        22
+1        41
+2        47
+3        35
+4        53
+         ..
+64369    45
+64370    37
+64371    25
+64372    50
+64373    52
+Name: Age, Length: 64374, dtype: int64]
+[2023-08-14 14:59:05,032: INFO: data_prediction: Tenure
+]
+[2023-08-14 14:59:05,032: INFO: data_prediction: 0        25
+1        28
+2        27
+3         9
+4        58
+         ..
+64369    33
+64370     6
+64371    39
+64372    18
+64373    45
+Name: Tenure, Length: 64374, dtype: int64]
+[2023-08-14 14:59:05,041: INFO: data_prediction: UsageFrequency
+]
+[2023-08-14 14:59:05,042: INFO: data_prediction: 0        14
+1        28
+2        10
+3        12
+4        24
+         ..
+64369    12
+64370     1
+64371    14
+64372    19
+64373    15
+Name: UsageFrequency, Length: 64374, dtype: int64]
+[2023-08-14 14:59:05,050: INFO: data_prediction: SupportCalls
+]
+[2023-08-14 14:59:05,051: INFO: data_prediction: 0        4
+1        7
+2        2
+3        5
+4        9
+        ..
+64369    6
+64370    5
+64371    8
+64372    7
+64373    9
+Name: SupportCalls, Length: 64374, dtype: int64]
+[2023-08-14 14:59:05,061: INFO: data_prediction: PaymentDelay
+]
+[2023-08-14 14:59:05,062: INFO: data_prediction: 0        27
+1        13
+2        29
+3        17
+4         2
+         ..
+64369    21
+64370    22
+64371    30
+64372    22
+64373    25
+Name: PaymentDelay, Length: 64374, dtype: int64]
+[2023-08-14 14:59:05,069: INFO: data_prediction: TotalSpend
+]
+[2023-08-14 14:59:05,071: INFO: data_prediction: 0        598
+1        584
+2        757
+3        232
+4        533
+        ... 
+64369    947
+64370    923
+64371    327
+64372    540
+64373    696
+Name: TotalSpend, Length: 64374, dtype: int64]
+[2023-08-14 14:59:05,080: INFO: data_prediction: LastInteraction
+]
+[2023-08-14 14:59:05,081: INFO: data_prediction: 0         9
+1        20
+2        21
+3        18
+4        18
+         ..
+64369    14
+64370     9
+64371    20
+64372    13
+64373    22
+Name: LastInteraction, Length: 64374, dtype: int64]
+[2023-08-14 15:02:18,291: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:02:18,302: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:02:18,304: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:02:18,305: INFO: __init__: Python backend loaded]
+[2023-08-14 15:02:19,244: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:02:19,249: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:02:19,353: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:02:19,358: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:02:19,361: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:02:19,441: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:02:19,442: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:26:39,774: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:26:39,786: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:26:39,788: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:26:39,788: INFO: __init__: Python backend loaded]
+[2023-08-14 15:26:40,417: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:26:40,419: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:26:40,478: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:26:40,482: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:26:40,485: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:26:40,543: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:26:40,544: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:27:52,971: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:27:52,979: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:27:52,981: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:27:52,982: INFO: __init__: Python backend loaded]
+[2023-08-14 15:27:53,643: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:27:53,645: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:27:53,706: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:27:53,709: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:27:53,711: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:27:53,774: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:27:53,775: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:27:53,828: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:29:37,624: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:29:37,632: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:29:37,634: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:29:37,635: INFO: __init__: Python backend loaded]
+[2023-08-14 15:29:38,361: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:29:38,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:29:38,421: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:29:38,424: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:29:38,427: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:29:38,484: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:29:38,485: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:29:38,533: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:32:32,891: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:32:32,900: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:32:32,901: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:32:32,903: INFO: __init__: Python backend loaded]
+[2023-08-14 15:32:33,547: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:32:33,551: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:32:33,608: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:32:33,611: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:32:33,613: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:32:33,680: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:32:33,681: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:32:33,735: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:32:33,763: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:32:33,790: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:33:57,927: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:33:57,936: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:33:57,938: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:33:57,938: INFO: __init__: Python backend loaded]
+[2023-08-14 15:33:58,628: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:33:58,631: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:33:58,698: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:33:58,701: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:33:58,703: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:33:58,760: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:33:58,761: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:33:58,805: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:33:58,824: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:33:58,842: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:39:07,533: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:39:07,560: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:39:07,562: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:39:07,562: INFO: __init__: Python backend loaded]
+[2023-08-14 15:39:08,590: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:39:08,592: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:39:08,650: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:39:08,666: INFO: server: Started server process [1748]]
+[2023-08-14 15:39:08,668: INFO: on: Waiting for application startup.]
+[2023-08-14 15:39:08,669: INFO: on: Application startup complete.]
+[2023-08-14 15:39:08,670: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:41:55,398: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:41:55,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:41:55,470: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 36, in get_items
+    pred = ModelPredictPipeline(data).main()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 54, in main
+    anomoly = new.validate_input(self.df)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\components\data_prediction.py", line 45, in validate_input
+    num_feat = df1.drop(columns=[target],axis=1).select_dtypes(include=['int','float','int64']).columns
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\frame.py", line 5268, in drop
+    return super().drop(
+           ^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\generic.py", line 4549, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\generic.py", line 4591, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py", line 6696, in drop
+    raise KeyError(f"{list(labels[mask])} not found in axis")
+KeyError: "['Churn'] not found in axis"
+[2023-08-14 15:42:42,802: INFO: server: Shutting down]
+[2023-08-14 15:42:42,910: INFO: on: Waiting for application shutdown.]
+[2023-08-14 15:42:42,910: INFO: on: Application shutdown complete.]
+[2023-08-14 15:42:42,910: INFO: server: Finished server process [1748]]
+[2023-08-14 15:42:46,965: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:42:46,979: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:42:46,981: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:42:46,982: INFO: __init__: Python backend loaded]
+[2023-08-14 15:42:48,027: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:42:48,035: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:42:48,100: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:42:48,119: INFO: server: Started server process [10464]]
+[2023-08-14 15:42:48,121: INFO: on: Waiting for application startup.]
+[2023-08-14 15:42:48,122: INFO: on: Application startup complete.]
+[2023-08-14 15:42:48,123: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:43:03,097: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:43:03,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:43:03,163: INFO: data_prediction: Index([], dtype='object')]
+[2023-08-14 15:43:03,164: INFO: data_prediction: Index(['Cat features:Age', 'Cat features:Gender', 'Cat features:Tenure',
+       'Cat features:UsageFrequency', 'Cat features:SupportCalls',
+       'Cat features:PaymentDelay', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength', 'Cat features:TotalSpend',
+       'Cat features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:43:03,165: INFO: data_prediction: feature: Age]
+[2023-08-14 15:43:03,167: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 36, in predict
+    pred = ModelPredictPipeline(data).main()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 54, in main
+    anomoly = new.validate_input(self.df)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\components\data_prediction.py", line 56, in validate_input
+    if not df[j].str.contains(df1[j][0]).any():
+           ^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\strings\accessor.py", line 181, in __init__
+    self._inferred_dtype = self._validate(data)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\strings\accessor.py", line 235, in _validate
+    raise AttributeError("Can only use .str accessor with string values!")
+AttributeError: Can only use .str accessor with string values!
+[2023-08-14 15:45:06,165: INFO: server: Shutting down]
+[2023-08-14 15:45:06,273: INFO: on: Waiting for application shutdown.]
+[2023-08-14 15:45:06,274: INFO: on: Application shutdown complete.]
+[2023-08-14 15:45:06,275: INFO: server: Finished server process [10464]]
+[2023-08-14 15:45:09,771: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:45:09,789: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:45:09,790: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:45:09,791: INFO: __init__: Python backend loaded]
+[2023-08-14 15:45:10,730: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:45:10,742: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:45:10,799: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:45:10,816: INFO: server: Started server process [18648]]
+[2023-08-14 15:45:10,818: INFO: on: Waiting for application startup.]
+[2023-08-14 15:45:10,818: INFO: on: Application startup complete.]
+[2023-08-14 15:45:10,820: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:45:27,608: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:45:27,610: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:45:27,669: INFO: data_prediction: Index([], dtype='object')]
+[2023-08-14 15:45:27,670: INFO: data_prediction: Index(['Cat features:Age', 'Cat features:Gender', 'Cat features:Tenure',
+       'Cat features:UsageFrequency', 'Cat features:SupportCalls',
+       'Cat features:PaymentDelay', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength', 'Cat features:TotalSpend',
+       'Cat features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:45:27,672: INFO: data_prediction: feature: Age]
+[2023-08-14 15:45:27,674: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 36, in predict
+    pred = ModelPredictPipeline(data).main()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 54, in main
+    anomoly = new.validate_input(self.df)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\components\data_prediction.py", line 56, in validate_input
+    if not df[j].str.contains(df1[j][0]).any():
+           ^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\strings\accessor.py", line 181, in __init__
+    self._inferred_dtype = self._validate(data)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\pandas\core\strings\accessor.py", line 235, in _validate
+    raise AttributeError("Can only use .str accessor with string values!")
+AttributeError: Can only use .str accessor with string values!
+[2023-08-14 15:51:39,321: INFO: server: Shutting down]
+[2023-08-14 15:51:39,431: INFO: on: Waiting for application shutdown.]
+[2023-08-14 15:51:39,431: INFO: on: Application shutdown complete.]
+[2023-08-14 15:51:39,433: INFO: server: Finished server process [18648]]
+[2023-08-14 15:51:43,167: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:51:43,185: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:51:43,187: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:51:43,187: INFO: __init__: Python backend loaded]
+[2023-08-14 15:51:44,160: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:51:44,168: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:51:44,226: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:51:44,243: INFO: server: Started server process [17228]]
+[2023-08-14 15:51:44,245: INFO: on: Waiting for application startup.]
+[2023-08-14 15:51:44,246: INFO: on: Application startup complete.]
+[2023-08-14 15:51:44,247: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:52:11,662: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:52:11,664: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:52:11,725: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:52:11,726: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:52:11,770: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:52:11,790: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:52:11,810: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:52:11,833: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 39, in predict
+    pred = ModelPredictPipeline(data).main()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 55, in main
+    if anomoly>0:
+       ^^^^^^^^^
+TypeError: '>' not supported between instances of 'list' and 'int'
+[2023-08-14 15:53:22,055: INFO: server: Shutting down]
+[2023-08-14 15:53:22,178: INFO: on: Waiting for application shutdown.]
+[2023-08-14 15:53:22,179: INFO: on: Application shutdown complete.]
+[2023-08-14 15:53:22,180: INFO: server: Finished server process [17228]]
+[2023-08-14 15:53:25,462: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:53:25,485: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:53:25,487: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:53:25,488: INFO: __init__: Python backend loaded]
+[2023-08-14 15:53:26,423: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:53:26,432: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:53:26,492: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:53:26,508: INFO: server: Started server process [14856]]
+[2023-08-14 15:53:26,510: INFO: on: Waiting for application startup.]
+[2023-08-14 15:53:26,511: INFO: on: Application startup complete.]
+[2023-08-14 15:53:26,512: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:53:36,149: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:53:36,152: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:53:36,208: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:53:36,209: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:53:36,252: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:53:36,272: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:53:36,291: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:53:43,374: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:53:43,377: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:53:43,440: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:53:43,442: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:53:43,487: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:53:43,508: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:53:43,530: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:53:56,585: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:53:56,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:53:56,646: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:53:56,648: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:53:56,690: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:53:56,707: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:53:56,726: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:55:03,769: INFO: server: Shutting down]
+[2023-08-14 15:55:03,877: INFO: on: Waiting for application shutdown.]
+[2023-08-14 15:55:03,877: INFO: on: Application shutdown complete.]
+[2023-08-14 15:55:03,877: INFO: server: Finished server process [14856]]
+[2023-08-14 15:55:07,167: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:55:07,181: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:55:07,182: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:55:07,183: INFO: __init__: Python backend loaded]
+[2023-08-14 15:55:08,130: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:55:08,135: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:55:08,191: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:55:08,206: INFO: server: Started server process [17216]]
+[2023-08-14 15:55:08,208: INFO: on: Waiting for application startup.]
+[2023-08-14 15:55:08,209: INFO: on: Application startup complete.]
+[2023-08-14 15:55:08,210: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:55:19,067: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:55:19,070: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:55:19,130: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:55:19,132: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:55:19,177: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:55:19,197: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:55:19,217: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:55:26,500: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:55:26,502: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:55:26,563: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:55:26,564: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:55:26,611: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:55:26,632: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:55:26,653: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:56:13,698: INFO: server: Shutting down]
+[2023-08-14 15:56:13,807: INFO: on: Waiting for application shutdown.]
+[2023-08-14 15:56:13,809: INFO: on: Application shutdown complete.]
+[2023-08-14 15:56:13,811: INFO: server: Finished server process [17216]]
+[2023-08-14 15:56:16,981: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:56:17,009: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:56:17,010: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:56:17,011: INFO: __init__: Python backend loaded]
+[2023-08-14 15:56:17,968: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:56:17,970: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:56:18,030: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:56:18,047: INFO: server: Started server process [11680]]
+[2023-08-14 15:56:18,049: INFO: on: Waiting for application startup.]
+[2023-08-14 15:56:18,050: INFO: on: Application startup complete.]
+[2023-08-14 15:56:18,051: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:56:23,433: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:56:23,435: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:56:23,499: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:56:23,501: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:56:23,549: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:56:23,568: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:56:23,590: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:56:23,631: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 39, in predict
+    pred = ModelPredictPipeline(data).main()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 57, in main
+    return(msg + " \n " + "Prediction: " +new.predict(self.df))
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+numpy.core._exceptions._UFuncNoLoopError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U118'), dtype('int64')) -> None
+[2023-08-14 15:57:42,333: INFO: server: Shutting down]
+[2023-08-14 15:57:42,440: INFO: on: Waiting for application shutdown.]
+[2023-08-14 15:57:42,440: INFO: on: Application shutdown complete.]
+[2023-08-14 15:57:42,440: INFO: server: Finished server process [11680]]
+[2023-08-14 15:57:46,549: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:57:46,577: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:57:46,579: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:57:46,579: INFO: __init__: Python backend loaded]
+[2023-08-14 15:57:47,521: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:57:47,526: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:57:47,582: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:57:47,599: INFO: server: Started server process [8240]]
+[2023-08-14 15:57:47,600: INFO: on: Waiting for application startup.]
+[2023-08-14 15:57:47,601: INFO: on: Application startup complete.]
+[2023-08-14 15:57:47,602: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:58:01,788: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:58:01,791: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:58:01,848: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:58:01,850: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:58:01,893: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:58:01,912: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:58:01,931: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:58:01,952: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 39, in predict
+    pred = ModelPredictPipeline(data).main()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 57, in main
+    return f"{msg} \n Prediction:  {new.predict(self.df)}"
+              ^^^
+UnboundLocalError: cannot access local variable 'msg' where it is not associated with a value
+[2023-08-14 15:58:50,612: INFO: server: Shutting down]
+[2023-08-14 15:58:50,721: INFO: on: Waiting for application shutdown.]
+[2023-08-14 15:58:50,721: INFO: on: Application shutdown complete.]
+[2023-08-14 15:58:50,722: INFO: server: Finished server process [8240]]
+[2023-08-14 15:58:53,900: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 15:58:53,915: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 15:58:53,916: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 15:58:53,917: INFO: __init__: Python backend loaded]
+[2023-08-14 15:58:54,886: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:58:54,889: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:58:54,960: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 15:58:54,979: INFO: server: Started server process [18112]]
+[2023-08-14 15:58:54,981: INFO: on: Waiting for application startup.]
+[2023-08-14 15:58:54,982: INFO: on: Application startup complete.]
+[2023-08-14 15:58:54,983: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 15:59:03,309: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:59:03,311: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:59:03,366: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:59:03,368: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:59:03,411: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:59:03,430: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:59:03,450: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 15:59:11,926: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 15:59:11,928: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 15:59:11,994: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction'],
+      dtype='object')]
+[2023-08-14 15:59:11,995: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 15:59:12,056: INFO: data_prediction: feature: Gender]
+[2023-08-14 15:59:12,075: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 15:59:12,095: INFO: data_prediction: feature: ContractLength]

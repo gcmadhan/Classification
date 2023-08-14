@@ -26,19 +26,21 @@ class Items(BaseModel):
     
 
 @app.post("/predict/")
-async def get_items(items: Items):
+async def predict(items: Items, add_to_database: None ):
     data = jsonable_encoder(items)
     
-    
-    data=pd.DataFrame.from_dict(data, orient='index').T
-    
-    print(data)
-    
+    #data=pd.DataFrame.from_dict(data, orient='index').T
+    for key, value  in data.items():
+        data[key]=[value]
+    data=pd.DataFrame.from_dict(data)
+
+    print(data.info())
+      
     pred = ModelPredictPipeline(data).main()
-    return {"message": str(pred)}
+    return {"message": pred}
 
 @app.get("/train/")
-async def get_items():
+async def trainmodel():
     df = DataIngestionPipeline().main()
     df=df.drop(columns=['CustomerID'], axis=1)
     DataValidationPipeline(df).main()
@@ -47,14 +49,14 @@ async def get_items():
     return {"message": str(msg)}
 
 @app.post("/save/")
-async def get_items(modelid: int):
+async def savemodel(modelid: int):
     df = DataIngestionPipeline().main()
     df=df.drop(columns=['CustomerID'], axis=1)
     ModelSavePipeline(df,modelid).main()
     return {"message": str("Model saved successfully")}
 
 @app.get("/featureselection/")
-async def get_items():
+async def featureslist():
     model= joblib.load(os.path.join(Model_path,"Model.pkl"))
     feat = model.feature_names_in_
     return {"message": str(feat)}
