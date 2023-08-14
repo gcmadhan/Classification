@@ -39,7 +39,7 @@ class Data_Prediciton:
         
         return (Model.predict(data))
     
-    def validate_input(self, df1):
+    def validate_input(self, df1, add_to_df: bool):
         df = pd.read_csv(self.config.get_data_ingestion_config().data_file_path)
         target = self.config.get_data_ingestion_config().target_feature
         num_feat = df1.select_dtypes(include=['int','float','int64']).columns
@@ -55,6 +55,9 @@ class Data_Prediciton:
             logger.info(f"feature: {j}")
             if not df[j].str.contains(df1[j][0]).any():
                 anomoly_feat.append(j)
+        
+        #if add_to_df:
+        #    df
         #for j in cat_feat:
         #    
         #    if not df1[j].unique() in df[j].unique().to_list():

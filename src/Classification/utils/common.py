@@ -1,6 +1,7 @@
 import os
 import yaml
 from pathlib import Path
+import shutil
 from Classification.logging import logger
 from Classification.constants import Model_path
 import pandas as pd
@@ -59,7 +60,12 @@ def modeling(model, df, preprocessor, target, save=False):
         return(model,rec, pre, acc)
     elif save==True:
         ml_pipe.fit(X, y)
-        joblib.dump(ml_pipe,os.path.join(Model_path,"Model.pkl"))
+        try: 
+            shutil.move(os.path.join(Model_path,'CH_Model.pkl'), os.path.join(Model_path,'Model.pkl'))
+            logger.info("Challenger Model has been renamed to Model")
+        except FileNotFoundError:
+            logger.warn("Challenger model is not in the path")
+        joblib.dump(ml_pipe,os.path.join(Model_path,"CH_Model.pkl"))
         logger.info("Model saved successfully")
         return(ml_pipe)
 

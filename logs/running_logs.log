@@ -6277,3 +6277,193 @@ UnboundLocalError: cannot access local variable 'msg' where it is not associated
 [2023-08-14 15:59:12,056: INFO: data_prediction: feature: Gender]
 [2023-08-14 15:59:12,075: INFO: data_prediction: feature: SubscriptionType]
 [2023-08-14 15:59:12,095: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 16:26:00,229: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 16:26:00,238: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 16:26:00,239: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 16:26:00,241: INFO: __init__: Python backend loaded]
+[2023-08-14 16:26:00,935: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 16:26:00,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 16:26:00,997: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 16:26:01,001: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 16:26:01,003: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 16:26:20,687: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 16:26:20,690: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 16:26:20,775: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 16:26:20,778: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 16:26:20,781: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 16:26:20,845: INFO: data_prediction: Index(['Numeric features:Age', 'Numeric features:Tenure',
+       'Numeric features:UsageFrequency', 'Numeric features:SupportCalls',
+       'Numeric features:PaymentDelay', 'Numeric features:TotalSpend',
+       'Numeric features:LastInteraction', 'Numeric features:Churn'],
+      dtype='object')]
+[2023-08-14 16:26:20,846: INFO: data_prediction: Index(['Cat features:Gender', 'Cat features:SubscriptionType',
+       'Cat features:ContractLength'],
+      dtype='object')]
+[2023-08-14 16:26:20,899: INFO: data_prediction: feature: Gender]
+[2023-08-14 16:26:20,917: INFO: data_prediction: feature: SubscriptionType]
+[2023-08-14 16:26:20,938: INFO: data_prediction: feature: ContractLength]
+[2023-08-14 19:40:20,011: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 19:40:20,046: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 19:40:20,049: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 19:40:20,049: INFO: __init__: Python backend loaded]
+[2023-08-14 19:40:22,362: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:40:22,367: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:40:22,513: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 19:40:22,550: INFO: server: Started server process [11524]]
+[2023-08-14 19:40:22,552: INFO: on: Waiting for application startup.]
+[2023-08-14 19:40:22,553: INFO: on: Application startup complete.]
+[2023-08-14 19:40:22,555: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 19:40:47,256: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:40:47,259: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:40:47,320: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 19:40:47,326: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:40:47,329: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:40:47,338: INFO: common: Saving Model initiated]
+[2023-08-14 19:41:23,217: WARNING: common: Challenger model is not in the path]
+[2023-08-14 19:41:23,224: INFO: common: Model saved successfully]
+[2023-08-14 19:41:39,493: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:41:39,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:41:39,558: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 19:41:39,563: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:41:39,565: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:41:39,574: INFO: common: Saving Model initiated]
+[2023-08-14 19:41:39,803: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 55, in savemodel
+    ModelSavePipeline(df,modelid).main()
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 44, in main
+    Data_Preprocessing(df).save_model(model_id=self.model_id, save=True)
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\components\data_modeling.py", line 60, in save_model
+    model = modeling(eval(model),self.df,self.preprocessing(self.df),self.target, save)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\utils\common.py", line 63, in modeling
+    os.rename(os.path.join(Model_path,'CH_Model.pkl'), os.path.join(Model_path,'Model.pkl'))
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'Files\\Version_control\\Models\\CH_Model.pkl' -> 'Files\\Version_control\\Models\\Model.pkl'
+[2023-08-14 19:47:54,490: INFO: server: Shutting down]
+[2023-08-14 19:47:54,600: INFO: on: Waiting for application shutdown.]
+[2023-08-14 19:47:54,601: INFO: on: Application shutdown complete.]
+[2023-08-14 19:47:54,602: INFO: server: Finished server process [11524]]
+[2023-08-14 19:47:58,370: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 19:47:58,383: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 19:47:58,385: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 19:47:58,386: INFO: __init__: Python backend loaded]
+[2023-08-14 19:47:59,610: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:47:59,613: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:47:59,690: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 19:47:59,712: INFO: server: Started server process [3440]]
+[2023-08-14 19:47:59,714: INFO: on: Waiting for application startup.]
+[2023-08-14 19:47:59,715: INFO: on: Application startup complete.]
+[2023-08-14 19:47:59,716: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 19:48:08,515: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:48:08,517: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:48:08,588: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 19:48:08,593: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:48:08,594: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:48:08,604: INFO: common: Saving Model initiated]
+[2023-08-14 19:48:08,884: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 55, in savemodel
+    ModelSavePipeline(df,modelid).main()
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 44, in main
+    Data_Preprocessing(df).save_model(model_id=self.model_id, save=True)
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\components\data_modeling.py", line 60, in save_model
+    model = modeling(eval(model),self.df,self.preprocessing(self.df),self.target, save)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\utils\common.py", line 64, in modeling
+    shutil(os.path.join(Model_path,'CH_Model.pkl'), os.path.join(Model_path,'Model.pkl'))
+TypeError: 'module' object is not callable
+[2023-08-14 19:48:56,922: INFO: server: Shutting down]
+[2023-08-14 19:48:57,030: INFO: on: Waiting for application shutdown.]
+[2023-08-14 19:48:57,031: INFO: on: Application shutdown complete.]
+[2023-08-14 19:48:57,031: INFO: server: Finished server process [3440]]
+[2023-08-14 19:49:00,734: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 19:49:00,749: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 19:49:00,750: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 19:49:00,751: INFO: __init__: Python backend loaded]
+[2023-08-14 19:49:01,995: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:49:01,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:49:02,066: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 19:49:02,084: INFO: server: Started server process [17544]]
+[2023-08-14 19:49:02,086: INFO: on: Waiting for application startup.]
+[2023-08-14 19:49:02,087: INFO: on: Application startup complete.]
+[2023-08-14 19:49:02,088: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 19:49:09,112: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:49:09,116: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:49:09,194: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 19:49:09,199: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 19:49:09,202: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 19:49:09,213: INFO: common: Saving Model initiated]
+[2023-08-14 19:49:09,550: INFO: common: Challenger Model has been renamed to Model]
+[2023-08-14 19:49:09,566: INFO: common: Model saved successfully]
