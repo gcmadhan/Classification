@@ -8,8 +8,10 @@ Output_file:
 Preprocessing:
   Categorical_transformer: 
   - OneHotEncoder(drop='first',handle_unknown='ignore', sparse=False)
+  - SelectPercentile(chi2, percentile=10)
   Numerical_trasformer: 
   - StandardScaler()
+
 
 Models:
   - LogisticRegression()

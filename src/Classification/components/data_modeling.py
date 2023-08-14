@@ -72,6 +72,7 @@ class Data_Preprocessing:
         print(f"Categorical features are: {cat_feat}")
         
         ##Numeric transformer pipeline
+        
         num_pipe = Pipeline(create_pipeline('Numeric',num_trans))
         
         cat_pipe = Pipeline(create_pipeline('Categorial',cat_trans))

@@ -8,6 +8,7 @@ from box import ConfigBox
 from box.exceptions import BoxValueError
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.model_selection import train_test_split
+from sklearn.feature_selection import mutual_info_classif, SelectPercentile, chi2
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, recall_score, precision_score
 from sklearn.pipeline import Pipeline
 import joblib
@@ -62,7 +63,8 @@ def modeling(model, df, preprocessor, target, save=False):
         logger.info("Model saved successfully")
         return(ml_pipe)
 
-    
+
+
 
 
 

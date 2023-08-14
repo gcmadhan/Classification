@@ -7,6 +7,7 @@ import uvicorn
 from Classification.pipeline import *
 from Classification.components.data_prediction import Data_Prediciton
 from Classification.config.configuration import ConfigurationManager
+from Classification.constants import Model_path
 app = FastAPI()
 df = DataIngestionPipeline().main()
   
@@ -49,10 +50,14 @@ async def get_items():
 async def get_items(modelid: int):
     df = DataIngestionPipeline().main()
     df=df.drop(columns=['CustomerID'], axis=1)
-    #DataValidationPipeline(df).main()
-    #msg = DataPreprocessingModelingPipeline(df).main()
     ModelSavePipeline(df,modelid).main()
     return {"message": str("Model saved successfully")}
+
+@app.get("/featureselection/")
+async def get_items():
+    model= joblib.load(os.path.join(Model_path,"Model.pkl"))
+    feat = model.feature_names_in_
+    return {"message": str(feat)}
 
 if __name__=="__main__":
     uvicorn.run(app, port=5000, log_level="info")

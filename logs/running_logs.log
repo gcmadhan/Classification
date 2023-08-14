@@ -4596,3 +4596,146 @@ TypeError: list indices must be integers or slices, not str
 [2023-08-12 13:20:05,213: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
 [2023-08-12 13:20:18,415: INFO: configuration: Reading Params file params.yaml]
 [2023-08-12 13:20:18,418: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:27:57,440: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 11:27:57,472: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 11:27:57,474: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 11:27:57,475: INFO: __init__: Python backend loaded]
+[2023-08-14 11:27:59,884: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:27:59,890: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:27:59,995: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 11:28:00,036: INFO: server: Started server process [14724]]
+[2023-08-14 11:28:00,038: INFO: on: Waiting for application startup.]
+[2023-08-14 11:28:00,039: INFO: on: Application startup complete.]
+[2023-08-14 11:28:00,041: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 11:28:17,830: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:28:17,834: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:28:17,897: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 11:28:17,907: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:28:17,909: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:28:17,944: INFO: data_analysis: Creating dataframe profile file]
+[2023-08-14 11:28:30,735: INFO: data_analysis: Profiling created successfully]
+[2023-08-14 11:28:30,738: INFO: __init__: Validation step completed]
+[2023-08-14 11:28:30,739: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:28:30,740: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:28:30,750: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\AppData\Roaming\Python\Python311\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\F14EIYF\Downloads\ML\classification problem\app.py", line 44, in get_items
+    msg = DataPreprocessingModelingPipeline(df).main()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\pipeline\__init__.py", line 35, in main
+    return Data_Preprocessing(df).modeling()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\components\data_modeling.py", line 49, in modeling
+    preprocessor = self.preprocessing(self.df)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\components\data_modeling.py", line 76, in preprocessing
+    num_pipe = Pipeline(create_pipeline('Numeric',num_trans))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\f14eiyf\downloads\ml\classification problem\src\Classification\utils\common.py", line 33, in create_pipeline
+    pipe.append((name,eval(transformers[i])))
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+TypeError: mutual_info_classif() missing 2 required positional arguments: 'X' and 'y'
+[2023-08-14 11:30:02,685: INFO: server: Shutting down]
+[2023-08-14 11:30:02,797: INFO: on: Waiting for application shutdown.]
+[2023-08-14 11:30:02,798: INFO: on: Application shutdown complete.]
+[2023-08-14 11:30:02,798: INFO: server: Finished server process [14724]]
+[2023-08-14 11:30:08,282: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 11:30:08,327: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 11:30:08,329: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 11:30:08,329: INFO: __init__: Python backend loaded]
+[2023-08-14 11:30:10,495: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:30:10,504: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:30:10,601: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 11:30:10,626: INFO: server: Started server process [500]]
+[2023-08-14 11:30:10,628: INFO: on: Waiting for application startup.]
+[2023-08-14 11:30:10,629: INFO: on: Application startup complete.]
+[2023-08-14 11:30:10,631: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 11:30:19,078: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:30:19,082: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:30:19,172: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 11:30:19,177: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:30:19,180: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:30:19,228: INFO: data_analysis: Creating dataframe profile file]
+[2023-08-14 11:30:34,369: INFO: data_analysis: Profiling created successfully]
+[2023-08-14 11:30:34,372: INFO: __init__: Validation step completed]
+[2023-08-14 11:30:34,373: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:30:34,375: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:30:34,386: INFO: common: Saving Model initiated]
+[2023-08-14 11:30:34,548: INFO: common: Saving Model initiated]
+[2023-08-14 11:31:11,500: INFO: common: Saving Model initiated]
+[2023-08-14 11:31:14,126: INFO: common: Saving Model initiated]
+[2023-08-14 11:31:14,318: INFO: common: Saving Model initiated]
+[2023-08-14 11:31:39,576: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:31:39,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:31:39,651: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 11:31:39,655: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:31:39,657: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:31:39,666: INFO: common: Saving Model initiated]
+[2023-08-14 11:31:39,894: INFO: common: Model saved successfully]
+[2023-08-14 11:35:25,914: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 11:35:25,929: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 11:35:25,931: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 11:35:25,932: INFO: __init__: Python backend loaded]
+[2023-08-14 11:49:49,894: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 11:49:49,922: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 11:49:49,925: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 11:49:49,925: INFO: __init__: Python backend loaded]
+[2023-08-14 11:49:51,528: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:49:51,531: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:49:51,607: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 11:49:51,628: INFO: server: Started server process [29372]]
+[2023-08-14 11:49:51,629: INFO: on: Waiting for application startup.]
+[2023-08-14 11:49:51,631: INFO: on: Application startup complete.]
+[2023-08-14 11:49:51,632: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
+[2023-08-14 11:50:21,942: INFO: server: Shutting down]
+[2023-08-14 11:50:22,050: INFO: on: Waiting for application shutdown.]
+[2023-08-14 11:50:22,051: INFO: on: Application shutdown complete.]
+[2023-08-14 11:50:22,052: INFO: server: Finished server process [29372]]
+[2023-08-14 11:50:26,996: INFO: __init__: Pandas backend loaded 2.0.1]
+[2023-08-14 11:50:27,022: INFO: __init__: Numpy backend loaded 1.23.5]
+[2023-08-14 11:50:27,024: INFO: __init__: Pyspark backend NOT loaded]
+[2023-08-14 11:50:27,025: INFO: __init__: Python backend loaded]
+[2023-08-14 11:50:28,609: INFO: configuration: Reading Params file params.yaml]
+[2023-08-14 11:50:28,611: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-14 11:50:28,692: INFO: data_ingestion: Reading Dataset: Successful]
+[2023-08-14 11:50:28,715: INFO: server: Started server process [19908]]
+[2023-08-14 11:50:28,717: INFO: on: Waiting for application startup.]
+[2023-08-14 11:50:28,718: INFO: on: Application startup complete.]
+[2023-08-14 11:50:28,719: INFO: server: Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)]
